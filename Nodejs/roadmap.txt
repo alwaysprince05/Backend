@@ -1,0 +1,22 @@
+// all the code concept is witten inside thair.
+// Node.js Basics:
+
+// Introduction to Node.js.
+// Installing Node.js and npm -> because node.js ki help se hm js server bna pate hai.
+// node & npm(kisi aur ka code hm use karte hai)
+// npm init -> create package.json file -> isme project ka sara lekha jokha hota hai.
+// node usages
+
+
+
+// Working with modules.
+
+// File system operations.
+
+
+// Understanding HTTP module
+for learning the http we must learn the protocol -> (Rules) 
+internet pr kuchh bhi karne ke liye kuchh rules bnaye gye hai. Unke dwra jinhone internet ko bnaya hai.ab un rules ko folow karna jaruri hai. aur ye rules follow ho isliye ye rules aap ke operating system ke software me pre installed aate hai.
+http - protocol 
+yhi protocol hai ya rule hai jisko follow kre bina hm internet pe naa hi kuchh bhej sakte hai, naa hi kuchh manga sakte hai.
+isi ki vjah se data client se server and server se client ke pas aata jata rhta hai. agar http protocal follow nhi karenge to hm internet use nhi kr skte. 
