@@ -1,0 +1,59 @@
+// NPM Understanding
+
+// npm - node package manager(yha pr node se releated sare packages milenge jo bhi chije hm use karna chahte hai.) -> but corrently react,angular, java se bhi releated packages milte hai.
+ 
+// Note -> Node js core me jo installed aata hai wo khahalate hai module.
+// jo hm npm se download karte hai vo package hota hai.
+
+
+// installing and uninstalling anything basics and advanced
+// install -> npm i packagekanaam(agar hm koi bhi chij install karte hai vo dependency bn jata hai)
+// uninstall -> npm uninstall packagekanaam(agar hm pacakage.json me jakar dekhenge to vha se sari dependencies hti hui milengi)
+
+
+// Installing particular versions
+// Now ab hm dekhenge ki same package ke alag-alag version kaise install kr skte hai.(ex- npm i accessibility@3.0.9) -> ye package.json me jakar ke pta chal jayega.
+// Note -> agar hm koi chij install kiye and uska nya version nhi chala to hm us particular version ko install karte hai kisko developer use kr rhe hote hai.
+
+
+// understanding node_modules
+Note -> 1) node_modules ek yesa folder hai jisse hmko koi lena dena nhi hota hai.
+        2) is folder me hm jo bhi packages install karte hai for example -> accessibility(kai baar yesa ho skta hai ki hamare accessibility pacakage ko kisi aur pacakage ki jarurat ho lets suppose abcd..)
+        To jb hm accessibility install karte hai to sath me abcd.. bhi install hoga because accessibility kisi aur package pr dependent hai. Isiliye jitani bhi package hamari dependencies hai ya fir dependencies ki dependencies hai vo sb node_modules me aa jate hai.
+        ex-npm i express karne pr hamara node_modules aur bda ho jata hai.
+So npm ka kaam installing,uninstalling and manages the dependencies and Dev dependencies of the applications.
+
+
+// dependencies - pacakages and pacakages ki dependencies
+
+
+// devdependencies -> aise packages jo sirf development me kaam aayenge pr jb app bn jayega aur upload ho jayega tb hm in pacakages ka use nhi kr rhe honge.
+ex -> npm i nodemon --save-dev(means nodemon ko dependencies se hta ke dev dependencies me move kr diya gya hai)
+development ke baad nodemon pacakage ka koi use nhi hone wala hai.
+Note -> hm yesi chijo ko devdependencies nhi bnate hai jinko deploy ho jane ke baad bhi use karna hota hai.
+
+
+// scripts - understanding default scripts PATH and custom scripts
+question) kai baar hm koi script chalate hai to and us script me hm ye command likhte hai
+npm start 
+npm run dev
+num run concurrent (why)? -> ye react and mern ka server chalana hota hai tb concurrent ka use hota hai.
+
+jb hm node and npm install karte hai to 2 script likhate hai 1) start 2) test 
+jb nodejs or npm install hota hai to ye hamare operating system me ye path mention kr diye jate hai.
+jb bhi hm koi command likhate hai to operating system apni ek khud ki table ko banata hai and us table me search karta hai agar mil gya to execute hoga otherwise ye bta dega ki ye us command ko nhi janta hai.
+
+agar hm npm start ya test karte hai to ye command operating system ke table me mil jate hai aur hm usko run kr dete hai.
+Important -:
+iske alawa hm koi command likhate hai to it doesn't knows it. ex- npm chacha 😀 etc.
+to yese command ko chalane ke liye hm nmp run chacha ka use karte hai.(run means find chacha in this script.)
+see package.json script code.
+
+Note -> in dono ke alawa bhi hm kitani bhi script ko likh sakte hai.
+"scripts": {
+    "start":"node ./script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+For example i want to create chacha script.
+
+// npm i chalk me colourful text dekhane ko deta hai.  
