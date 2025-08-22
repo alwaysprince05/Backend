@@ -1,0 +1,27 @@
+// Express.js FrameWork 
+
+
+// Introduction to Express.js
+// Express.js ek npm package hai.
+// ek framework hai.
+// manages everything from receiving the request and giving the response.(means development stage me hm jitna development karne wale hai usme khi na khi yaa hr jgah Express.js ka role hota hai)
+request ko recieve krna request ko process karna, data ko bahar nikalna, GET , POST request ko seperate karna, BLOBS ko JSON me convert karna, Hamare DataBase ko server se connect karna ye sb kuchh Express.js ki hi help se hota hai.
+
+
+// Setting up a basic Express application
+
+
+// Routing.
+go to script.js file
+
+
+// Middleware.
+jab bhi server request accept karta hai waha se route ke beech pahuchane tak agar app us request ko beech me rokte ho and kuchh perform karte ho, to ye element Middleware kehlaata hai.
+
+
+
+// Request and response handling.
+iske basic logic ko app.get() me dekh chuke hai.yani request aati hai server pe and hm ispe fir kuchh kaam karte hai.
+
+
+// Error handling.
