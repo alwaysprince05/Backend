@@ -1,0 +1,14 @@
+// from handling and working with the forms 
+// handle backend process of forms and making sure the data coming from any frontend library, framework, templeting engine, we still handle it at the backend 
+
+
+// Now we are understanding the session & cookie 
+Let hamne instagram open kiya, login kiya and kisi video ko ko like kiya, Now hm fir se like karenge to Login karna padega Because Server hme bhul jata hai.(Isiliye hm session and cookie ko padhate hai)
+
+hm log kuchh bhi data frontend par browser par rakh sakte hai and jab bhi aap kuchh bhi request backend par karoge wo frontend par saved data automatically backend pr chala jayega.
+
+
+Note -: hamne to bheja tha plain text par server ko mila BLOB which is not directly readable ab is chij ko handle karna padega ki hm us BLOB ko wapas se readable kr sake.
+So use,
+app.use(express.json());
+app.use(express.unlencoded({extended: true}));
