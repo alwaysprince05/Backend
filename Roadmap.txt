@@ -1,0 +1,37 @@
+// initilize a project with npm -> npm init -y 
+// express install -> npm i express 
+
+// Now today we will learn 
+// setting up parsers for form 
+
+// setting up ejs for ejs pages -> step 1) install ejs from npm 
+step 2) setup ejs as a view engine.
+
+// setting up public static files 
+
+
+
+// Dynamic routing 
+inside the dynamic routing we will learn about 
+    1) Dynamic routing
+    2) how to get data coming from frontend at backend route 
+
+Dynamic routing -> ham log kai baar kuchh routes dekhate hai uname sirf ek hi hissa change hota hai.
+ex -> /author/harsh 
+      /author/harshita
+      /author/harshika
+      /author/harshitakabf
+
+      /profile/harsh
+      /profile/harshita
+
+      /like/dsgjsjkdgj
+      /like/kjfdjfkj
+
+Note -> inke liye hm itane sare routes create nhi karte hai, i.e., why we use Dynamic routing.
+Approach -> sabse pahle browser par jaao 
+            url likhiye apna jo aapko chahiye and enter dabaaiye(this will show an error)
+            ab us url route ko create kariye(inside the index.js)
+            response bhejiye kuchh bhi (this will dispaly the output)
+
+ab usi url ko agar dynamic banaana hai to realise karo kaun sa part dynamic hai aur us part ke aage route me colon : lga do.
